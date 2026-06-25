@@ -2,7 +2,6 @@
 
 namespace Validators;
 
-use DebugTools\Debug;
 use Src\DB\QueryBuilder;
 use Src\Validator\ValidatorAbstract;
 

@@ -2,7 +2,6 @@
 
 namespace Models;
 
-use DebugTools\Debug;
 use Src\Auth\IdentityInterface;
 use Src\DB\Elements\Model;
 
@@ -26,7 +25,6 @@ class User extends Model implements IdentityInterface
     //Возврат аутентифицированного пользователя
     public function attemptIdentity(array $credentials): ?static
     {
-        Debug::log($credentials);
         return self::where('login', $credentials['login'])->where('password', md5($credentials['password']))->first();
     }
 

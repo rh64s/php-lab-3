@@ -2,7 +2,6 @@
 
 namespace Middlewares;
 
-use DebugTools\Debug;
 use Src\Request;
 
 class SpecialCharsMiddleware

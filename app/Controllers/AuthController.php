@@ -8,7 +8,6 @@ use Src\Request;
 use Src\Validator\Validator;
 use Src\View;
 use Models\User;
-use DebugTools\Debug;
 
 class AuthController
 {

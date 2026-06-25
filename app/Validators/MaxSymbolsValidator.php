@@ -2,7 +2,6 @@
 
 namespace Validators;
 
-use DebugTools\Debug;
 use Src\Validator\ValidatorAbstract;
 
 class MaxSymbolsValidator extends ValidatorAbstract

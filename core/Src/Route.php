@@ -2,7 +2,6 @@
 
 namespace Src;
 
-use DebugTools\Debug;
 use Error;
 use Src\Traits\SingletonTrait;
 

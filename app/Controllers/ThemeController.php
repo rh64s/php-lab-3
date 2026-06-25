@@ -2,7 +2,6 @@
 
 namespace Controllers;
 
-use DebugTools\Debug;
 use Models\Questions;
 use Models\Theme;
 use Src\Request;

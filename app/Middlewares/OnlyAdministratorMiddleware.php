@@ -2,7 +2,6 @@
 
 namespace Middlewares;
 
-use DebugTools\Debug;
 use Src\Auth\Auth;
 use Src\Request;
 use Src\View;

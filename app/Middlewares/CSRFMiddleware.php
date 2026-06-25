@@ -2,7 +2,6 @@
 
 namespace Middlewares;
 
-use DebugTools\Debug;
 use Exception;
 use Src\Request;
 use Src\Session;

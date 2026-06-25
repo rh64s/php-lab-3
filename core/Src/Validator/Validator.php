@@ -2,8 +2,6 @@
 
 namespace Src\Validator;
 
-use DebugTools\Debug;
-
 class Validator {
     private array $validators = [];
     private array $fields = [];

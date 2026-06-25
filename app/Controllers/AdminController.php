@@ -2,7 +2,6 @@
 
 namespace Controllers;
 
-use DebugTools\Debug;
 use Models\Theme;
 use Models\User;
 use Src\Request;
@@ -120,7 +119,7 @@ class AdminController
                 }
             }
             
-            file_put_contents($routeFile, implode(';', $newLines));
+            file_put_contents($routeFile, implode(';', $newLines) . ';');
         }
         
         app()->route->redirect('/admin/pages');
