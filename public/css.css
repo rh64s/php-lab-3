@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    height: 50px;
+    background-color: #2b4271;
+    border-bottom: solid #2b4271 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer {
+    height: 200px;
+    background-color: #2b4271;
+}
+
+main {
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+    border: 2px solid #00000000;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn-light {
+    background-color: #dde6ef;
+    color: #142342;
+    border-color: #dde6ef;
+}
+
+.btn-dark {
+    background-color: #2b4271;
+    color: #ffffff;
+    border-color: #2b4271;
+}
+
+.btn-light:hover {
+    background-color: #2b4271;
+    color: #dde6ef;
+}
+.btn-dark:hover {
+    background-color: #dde6ef;
+    color: #2b4271;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.navs-links > a , nav > p {
+    color: white;
+    text-decoration: none;
+}
+.navs-links > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.navs-links > a:checked {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    background-color: #f1fbff;
+    border: 2px solid #6788b3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hello-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+.hello-section > div > .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60vw;
+    min-width: 300px;
+    padding: 20px;
+    border: 2px solid #dde6ef;
+    border-radius: 12px;
+}
+.hello-section > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hello-section > div > div > .btn {
+    width: 100%;
+    padding: 80px;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid #a8a8a8;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dde6ef;
+}
+
+table th {
+    background-color: #2b4271;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1fbff;
+}
+
+textarea {
+    width: 100%;
+    background-color: #f1fbff;
+    border: 2px solid #6788b3;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    resize: vertical;
+    min-height: 300px;
+}
+
+label {
+    font-weight: bold;
+    color: #142342;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: #2b4271;
+    margin-bottom: 20px;
+}
